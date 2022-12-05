@@ -2,7 +2,7 @@
 <project xmlns="http://lime.software/project/1.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lime.software/xsd/project-1.0.2.xsd">
 
 	<!-- _________________________ Application Settings _________________________ -->
-	<app title="Friday Night Funkin': Psych Engine" file="PsychEngine" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="0.2.7" company="ShadowMario" />
+	<app title="Friday Night Funkin': Freak Engine" file="FreakEngine" packageName="com.rxkk.frkengine" package="com.rxkk.frkengine" main="Main" version="0.2.7" company="Rxkk" />
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
@@ -41,7 +41,6 @@
 	<define name="LUA_ALLOWED" if="cpp" />
 	<define name="ACHIEVEMENTS_ALLOWED" />
 	<define name="VIDEOS_ALLOWED" if="desktop || android" unless="32bits" />
-	<define name="PSYCH_WATERMARKS" />
 
 	<!-- DELETE THIS TO REMOVE WATERMARKS/DEV NAMES ON TITLE SCREEN -->
 	<define name="TITLE_SCREEN_EASTER_EGG" if="officialBuild" />
